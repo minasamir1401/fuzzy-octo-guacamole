@@ -1,0 +1,80 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Booking {
+  id          String   @id @default(cuid())
+  packageId   String
+  packageName String
+  date        DateTime
+  guests      Int
+  totalPrice  Float
+  userName    String
+  userEmail   String
+  userPhone   String
+  addons      String
+  status      String   @default("PENDING")
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Package {
+  id               String  @id @default(cuid())
+  name             String
+  description      String
+  price            Float
+  duration         String
+  level            String
+  type             String
+  image            String
+  features         String
+  excludedFeatures String  @default("[]")
+  badge            String?
+  icon             String  @default("Waves")
+  isFeatured       Boolean @default(false)
+}
+
+model Admin {
+  id        String   @id @default(cuid())
+  username  String   @unique
+  password  String
+  createdAt DateTime @default(now())
+}
+
+model Inquiry {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  subject   String
+  message   String
+  createdAt DateTime @default(now())
+}
+
+model Gallery {
+  id        String   @id
+  url       String
+  title     String
+  category  String
+  createdAt DateTime @default(now())
+}
+
+model PriceItem {
+  id        String   @id
+  name      String
+  price     String
+  category  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime
+}
+
+model Setting {
+  id        String   @id @default("global")
+  key       String   @unique
+  value     String
+  updatedAt DateTime
+}
