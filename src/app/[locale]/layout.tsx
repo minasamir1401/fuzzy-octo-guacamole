@@ -117,9 +117,10 @@ export default async function LocaleLayout({ children, params }: Props) {
   // Fetch global settings
   let showPackagesPage = true;
   try {
-    const setting = await prisma.setting.findUnique({ where: { key: 'showPackagesPage' } });
-    if (setting) {
-      showPackagesPage = setting.value === 'true';
+    const res = await fetch(`${API_URL}/api/settings`, { cache: "no-store" });
+    if (res.ok) {
+      const settings = await res.json();
+      showPackagesPage = settings.showPackagesPage !== "false";
     }
   } catch (error) {
     console.error("Error fetching settings:", error);

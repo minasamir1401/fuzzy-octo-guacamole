@@ -49,7 +49,7 @@ export default function AddAddonModal({ isOpen, onClose, editData, onSuccess }: 
     if (!formData.name.en) return;
     setIsTranslating(true);
     try {
-      const res = await fetch("${API_URL}/api/translate", {
+      const res = await fetch(`${API_URL}/api/translate`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -74,7 +74,7 @@ export default function AddAddonModal({ isOpen, onClose, editData, onSuccess }: 
     e.preventDefault();
     const url = editData 
       ? `${API_URL}/api/addons/${editData.id}` 
-      : "${API_URL}/api/addons";
+      : `${API_URL}/api/addons`;
     const method = editData ? "PUT" : "POST";
 
     try {

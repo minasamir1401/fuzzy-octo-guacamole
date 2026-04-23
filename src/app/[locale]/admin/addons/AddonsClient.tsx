@@ -27,7 +27,7 @@ export default function AddonsClient() {
 
   const fetchAddons = async () => {
     try {
-      const res = await fetch("${API_URL}/api/addons");
+      const res = await fetch(`${API_URL}/api/addons`);
       const data = await res.json();
       setAddons(data);
     } catch (err) {

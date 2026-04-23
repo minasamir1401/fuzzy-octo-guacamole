@@ -18,12 +18,34 @@ export default async function AdminDashboard({ params }: { params: Promise<{ loc
     redirect(`/${locale}/admin/login`);
   }
 
-  const [bookingsCount, packagesCount, inquiriesCount, recentBookings] = await Promise.all([
-    prisma.booking.count(),
-    prisma.package.count(),
-    prisma.inquiry.count(),
-    prisma.booking.findMany({ take: 5, orderBy: { createdAt: "desc" } }),
-  ]);
+  let bookingsCount = 0;
+  let packagesCount = 0;
+  let inquiriesCount = 0;
+  let recentBookings = [];
+
+  try {
+    const [bookingsRes, packagesRes, inquiriesRes] = await Promise.all([
+      fetch(`${API_URL}/api/bookings`, { cache: "no-store" }),
+      fetch(`${API_URL}/api/packages`, { cache: "no-store" }),
+      fetch(`${API_URL}/api/inquiries`, { cache: "no-store" }),
+    ]);
+
+    if (bookingsRes.ok) {
+      const bookings = await bookingsRes.json();
+      bookingsCount = bookings.length;
+      recentBookings = bookings.slice(0, 5);
+    }
+    if (packagesRes.ok) {
+      const packages = await packagesRes.json();
+      packagesCount = packages.length;
+    }
+    if (inquiriesRes.ok) {
+      const inquiries = await inquiriesRes.json();
+      inquiriesCount = inquiries.length;
+    }
+  } catch (error) {
+    console.error("Error fetching admin stats:", error);
+  }
 
   const stats = [
     { label: t("stats.bookings"), value: bookingsCount, icon: Calendar, color: "text-blue-400" },

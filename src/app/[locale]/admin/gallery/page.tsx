@@ -16,9 +16,15 @@ export default async function ManageGallery({ params }: { params: Promise<{ loca
     redirect(`/${locale}/admin/login`);
   }
 
-  const galleryItems = await prisma.gallery.findMany({
-    orderBy: { createdAt: "desc" },
-  });
+  let galleryItems = [];
+  try {
+    const res = await fetch(`${API_URL}/api/gallery`, { cache: "no-store" });
+    if (res.ok) {
+      galleryItems = await res.json();
+    }
+  } catch (error) {
+    console.error("Error fetching gallery for admin:", error);
+  }
 
   return (
     <div className="min-h-screen bg-[#0A0B10] text-white flex">

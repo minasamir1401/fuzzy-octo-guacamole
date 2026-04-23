@@ -14,7 +14,7 @@ export default function SettingsClient({ locale }: { locale: string }) {
   useEffect(() => {
     const fetchSettings = async () => {
       try {
-        const res = await fetch("${API_URL}/api/settings");
+        const res = await fetch(`${API_URL}/api/settings`);
         if (res.ok) {
           const data = await res.json();
           setSettings({ showPackagesPage: data.showPackagesPage || "true" });
@@ -31,7 +31,7 @@ export default function SettingsClient({ locale }: { locale: string }) {
   const handleSave = async () => {
     setIsSaving(true);
     try {
-      const res = await fetch("${API_URL}/api/settings", {
+      const res = await fetch(`${API_URL}/api/settings`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ key: "showPackagesPage", value: settings.showPackagesPage }),

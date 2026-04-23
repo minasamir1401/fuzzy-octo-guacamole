@@ -19,9 +19,15 @@ export default async function ManagePackages({ params }: { params: Promise<{ loc
     redirect(`/${locale}/admin/login`);
   }
 
-  const packages = await prisma.package.findMany({
-    orderBy: { name: "asc" },
-  });
+  let packages = [];
+  try {
+    const res = await fetch(`${API_URL}/api/packages`, { cache: "no-store" });
+    if (res.ok) {
+      packages = await res.json();
+    }
+  } catch (error) {
+    console.error("Error fetching packages for admin:", error);
+  }
 
   return (
     <div className="min-h-screen bg-[#0A0B10] text-white flex">

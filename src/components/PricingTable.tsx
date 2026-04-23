@@ -8,7 +8,7 @@ interface PricingTableProps {
 export default async function PricingTable({ locale }: PricingTableProps) {
   let prices = [];
   try {
-    const res = await fetch("${API_URL}/api/prices", { cache: "no-store" });
+    const res = await fetch(`${API_URL}/api/prices`, { cache: "no-store" });
     if (res.ok) {
       prices = await res.json();
     }

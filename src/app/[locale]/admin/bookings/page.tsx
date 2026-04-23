@@ -14,9 +14,15 @@ export default async function ManageBookings({ params }: { params: Promise<{ loc
     redirect(`/${locale}/admin/login`);
   }
 
-  const bookings = await prisma.booking.findMany({
-    orderBy: { createdAt: "desc" },
-  });
+  let bookings = [];
+  try {
+    const res = await fetch(`${API_URL}/api/bookings`, { cache: "no-store" });
+    if (res.ok) {
+      bookings = await res.json();
+    }
+  } catch (error) {
+    console.error("Error fetching bookings for admin:", error);
+  }
 
   return (
     <div className="min-h-screen bg-[#0A0B10] text-white flex">

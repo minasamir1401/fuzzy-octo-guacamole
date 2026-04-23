@@ -65,7 +65,7 @@ export default function AddPackageModal({ isOpen, onClose, editData, onSuccess }
       
       const translateField = async (text: string) => {
         if (!text) return {};
-        const res = await fetch("${API_URL}/api/translate", {
+        const res = await fetch(`${API_URL}/api/translate`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ text, from: activeTab, targets })
@@ -210,7 +210,7 @@ export default function AddPackageModal({ isOpen, onClose, editData, onSuccess }
     try {
       const url = editData 
         ? `${API_URL}/api/packages/${editData.id}` 
-        : "${API_URL}/api/packages";
+        : `${API_URL}/api/packages`;
       
       const method = editData ? "PUT" : "POST";
 

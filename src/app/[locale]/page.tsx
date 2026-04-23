@@ -15,20 +15,18 @@ type Props = {
 export default async function Home({ params }: Props) {
   const { locale } = await params;
   
-  // Fetch featured packages from the database
-  const featuredPackages = await prisma.package.findMany({
-    where: { isFeatured: true },
-    take: 10,
-    orderBy: { price: 'asc' }
-  });
-
-  // If no featured packages, just take the first 3
-  let packages = featuredPackages;
-  if (packages.length === 0) {
-    packages = await prisma.package.findMany({
-      take: 3,
-      orderBy: { price: 'asc' }
-    });
+  // Fetch packages from the API
+  let packages = [];
+  try {
+    const res = await fetch(`${API_URL}/api/packages`, { cache: "no-store" });
+    if (res.ok) {
+      const allPackages = await res.json();
+      // Filter featured packages or take first 3
+      const featured = allPackages.filter((pkg: any) => pkg.isFeatured);
+      packages = featured.length > 0 ? featured.slice(0, 10) : allPackages.slice(0, 3);
+    }
+  } catch (error) {
+    console.error("Error fetching packages:", error);
   }
 
   return (

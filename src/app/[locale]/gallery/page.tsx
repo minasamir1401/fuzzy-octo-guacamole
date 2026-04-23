@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function GalleryPage() {
-  const images = await fetch("${API_URL}/api/gallery", { cache: "no-store" })
+  const images = await fetch(`${API_URL}/api/gallery`, { cache: "no-store" })
     .then(res => res.json())
     .catch(() => []);
 

@@ -16,9 +16,15 @@ export default async function ManageInquiries({ params }: { params: Promise<{ lo
     redirect(`/${locale}/admin/login`);
   }
 
-  const inquiries = await prisma.inquiry.findMany({
-    orderBy: { createdAt: "desc" },
-  });
+  let inquiries = [];
+  try {
+    const res = await fetch(`${API_URL}/api/inquiries`, { cache: "no-store" });
+    if (res.ok) {
+      inquiries = await res.json();
+    }
+  } catch (error) {
+    console.error("Error fetching inquiries for admin:", error);
+  }
 
   return (
     <div className="min-h-screen bg-[#0A0B10] text-white flex">

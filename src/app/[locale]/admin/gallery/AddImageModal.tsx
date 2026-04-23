@@ -20,7 +20,7 @@ export default function AddImageModal({ isOpen, onClose }: { isOpen: boolean, on
     setLoading(true);
 
     try {
-      const res = await fetch("${API_URL}/api/gallery", {
+      const res = await fetch(`${API_URL}/api/gallery`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),

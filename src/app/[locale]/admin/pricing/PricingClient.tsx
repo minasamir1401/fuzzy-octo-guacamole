@@ -35,7 +35,7 @@ export default function PricingClient({ locale }: { locale: string }) {
 
   const fetchPrices = async () => {
     try {
-      const res = await fetch("${API_URL}/api/prices");
+      const res = await fetch(`${API_URL}/api/prices`);
       if (res.ok) {
         const data = await res.json();
         setPrices(data);
@@ -107,7 +107,7 @@ export default function PricingClient({ locale }: { locale: string }) {
     };
 
     try {
-      const url = editingId ? `${API_URL}/api/prices/${editingId}` : "${API_URL}/api/prices";
+      const url = editingId ? `${API_URL}/api/prices/${editingId}` : `${API_URL}/api/prices`;
       const method = editingId ? "PUT" : "POST";
       const res = await fetch(url, {
         method,
