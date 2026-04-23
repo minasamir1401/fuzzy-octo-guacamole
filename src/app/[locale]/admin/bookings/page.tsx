@@ -4,6 +4,7 @@ import { redirect } from "next/navigation";
 import Sidebar from "../components/Sidebar";
 import BookingsClient from "./BookingsClient";
 
+// Admin bookings management page - updated to use Backend API
 export default async function ManageBookings({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const cookieStore = await cookies();
