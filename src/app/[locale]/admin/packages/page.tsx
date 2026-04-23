@@ -1,5 +1,4 @@
 import { API_URL } from "@/config/api";
-import { prisma } from "@/lib/prisma";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import Sidebar from "../components/Sidebar";

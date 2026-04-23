@@ -1,5 +1,4 @@
 import { API_URL } from "@/config/api";
-import { prisma } from "@/lib/prisma";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import Sidebar from "../components/Sidebar";
@@ -32,7 +31,7 @@ export default async function ManageGallery({ params }: { params: Promise<{ loca
 
       <main className="flex-1 p-12 lg:p-16 overflow-y-auto">
         <GalleryClient 
-          initialImages={galleryItems.map(item => ({ ...item, createdAt: item.createdAt.toISOString() }))} 
+          initialImages={galleryItems} 
           locale={locale} 
           t={{
             title: t("title"),

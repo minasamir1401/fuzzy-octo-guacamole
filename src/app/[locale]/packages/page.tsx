@@ -2,7 +2,6 @@ import { API_URL } from "@/config/api";
 import { getTranslations } from "next-intl/server";
 import { Metadata } from "next";
 import PackagesClient from "./PackagesClient";
-import { prisma } from "@/lib/prisma";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;

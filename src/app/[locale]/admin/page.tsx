@@ -1,5 +1,4 @@
 import { API_URL } from "@/config/api";
-import { prisma } from "@/lib/prisma";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { Calendar, Package, MessageSquare, Plus } from "lucide-react";
@@ -105,7 +104,7 @@ export default async function AdminDashboard({ params }: { params: Promise<{ loc
             </div>
             
             <RecentBookingsClient 
-              bookings={recentBookings.map(b => ({ ...b, date: b.date.toISOString() }))} 
+              bookings={recentBookings} 
               locale={locale} 
             />
           </div>

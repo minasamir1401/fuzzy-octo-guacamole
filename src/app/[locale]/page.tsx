@@ -1,5 +1,4 @@
 import { API_URL } from "@/config/api";
-import { prisma } from "@/lib/prisma";
 import HomeClient from "./HomeClient";
 import PricingTable from "@/components/PricingTable";
 

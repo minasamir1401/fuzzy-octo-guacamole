@@ -1,5 +1,4 @@
 import { API_URL } from "@/config/api";
-import { prisma } from "@/lib/prisma";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import Sidebar from "../components/Sidebar";
@@ -30,7 +29,7 @@ export default async function ManageBookings({ params }: { params: Promise<{ loc
 
       <main className="flex-1 p-12 lg:p-16 overflow-y-auto">
         <BookingsClient 
-          initialBookings={bookings.map(b => ({ ...b, date: b.date.toISOString() }))} 
+          initialBookings={bookings} 
           locale={locale} 
         />
       </main>
