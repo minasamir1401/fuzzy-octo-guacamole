@@ -1,0 +1,206 @@
+{
+  "metadata": {
+    "siteName": "Azure Abyss Hurghada",
+    "home": {
+      "title": "Tauchen Hurghada | Elite Tauchkurse | Azure Abyss",
+      "description": "Entdecken Sie das beste Tauchen in Hurghada mit dem zertifizierten PADI-Instruktor Capt. Omar. Private Stunden, Rotes Meer Tauchplätze, unvergessliche Erlebnisse.",
+      "keywords": "Tauchen Hurghada, Ägypten Tauchen Roten Meer, PADI Hurghada, Tauchinstruktor Hurghada, Tauchen Rotes Meer"
+    },
+    "diving": {
+      "title": "Tauchen Hurghada | Rotes Meer Tauchplätze | Azure Abyss",
+      "description": "Erkunden Sie Hurghadas beste Tauchplätze mit einem privaten PADI-Masterinstruktor. Abu Nuhas, Thistlegorm – Expertenführung garantiert.",
+      "keywords": "Tauchen Hurghada, Tauchplätze Rotes Meer, privater Tauchinstruktor Ägypten, PADI Kurs Hurghada"
+    },
+    "packages": {
+      "title": "Tauchpakete Hurghada | Private Kurse ab 120$ | Azure Abyss",
+      "description": "Wählen Sie Discovery, Advanced Pro oder Elite Master Tauchpakete in Hurghada. Privater Unterricht, PADI zertifiziert, alle Levels willkommen.",
+      "keywords": "Tauchpakete Hurghada, PADI Kurs Ägypten, Tauchen Preis Hurghada, privater Tauchkurs Rotes Meer"
+    },
+    "gallery": {
+      "title": "Tauchen Hurghada Fotos | Rotes Meer Unterwasserfotos | Azure Abyss",
+      "description": "Entdecken Sie atemberaubende Unterwasserfotos aus Hurghada. Korallenriffe, Meeresleben und faszinierende Rotes-Meer-Momente.",
+      "keywords": "Hurghada Unterwasserfotos, Rotes Meer Tauchen Fotos, Korallenriff Hurghada"
+    },
+    "contact": {
+      "title": "Kontakt Azure Abyss | Tauchen Hurghada buchen",
+      "description": "Bereit in Hurghada zu tauchen? Kontaktieren Sie Azure Abyss und buchen Sie Ihren privaten Tauchkurs mit PADI Instruktor Capt. Omar.",
+      "keywords": "Tauchen Hurghada buchen, Kontakt Tauchschule Hurghada, Tauchen Rotes Meer buchen"
+    },
+    "blog": {
+      "title": "Tauchen Hurghada Blog | Rotes Meer Tipps & Guides | Azure Abyss",
+      "description": "Experten-Artikel über das Tauchen in Hurghada: beste Tauchplätze, Preise, Anfänger-Guides vom PADI Instruktor Capt. Omar.",
+      "keywords": "Tauchen Hurghada Blog, Rotes Meer Tauchen Tipps, Tauchguide Ägypten"
+    }
+  },
+  "nav": {
+    "home": "Startseite",
+    "diving": "Tauchen",
+    "packages": "Pakete",
+    "gallery": "Galerie",
+    "contact": "Kontakt",
+    "blog": "Blog",
+    "bookNow": "Jetzt buchen"
+  },
+  "hero": {
+    "badge": "Elite-Privatunterricht in Hurghada",
+    "title1": "Meistern Sie die Tiefe mit",
+    "title2": "professioneller Führung",
+    "desc": "Entdecken Sie die Geheimnisse des Roten Meeres bei persönlichen, professionellen Tauchexpeditionen in Hurghada. Ihre Sicherheit und Ihr Lernfortschritt stehen für uns an erster Stelle.",
+    "cta1": "Instruktor buchen",
+    "cta2": "Tauchplätze ansehen"
+  },
+  "featured": {
+    "title": "Professionelle Hurghada-Expeditionen",
+    "desc": "Maßgeschneiderte Taucherlebnisse im Herzen von Hurghada. Vom Entdeckungstauchgang für Anfänger bis zu fortgeschrittenen Tiefseeerkundungen mit einem Masterinstruktor.",
+    "viewAll": "Alle Pakete anzeigen",
+    "selectCourse": "Kurs wählen",
+    "package": "Paket",
+    "details": "Details",
+    "price": "Preis",
+    "action": "Aktion",
+    "perPerson": "pro Person"
+  },
+  "why": {
+    "badge": "Warum unseren Unterricht wählen",
+    "title1": "Personalisiertes",
+    "title2": "Können",
+    "desc": "Wir sind auf hochwertige, private Tauchausbildung in Hurghada spezialisiert. Unser Ansatz kombiniert strenge Sicherheitsstandards mit einem persönlichen Coaching-Stil.",
+    "features": {
+      "instructor": {
+        "title": "Profi-Instruktor",
+        "desc": "Lernen Sie direkt von einem zertifizierten Meister mit über 15 Jahren Erfahrung."
+      },
+      "safety": {
+        "title": "Sicherheit zuerst",
+        "desc": "PADI-zertifizierte Kurse mit modernster Sicherheitsausrüstung."
+      },
+      "pace": {
+        "title": "Individuelles Tempo",
+        "desc": "Wir passen uns Ihrer Lerngeschwindigkeit an."
+      },
+      "sites": {
+        "title": "Hurghadas Beste",
+        "desc": "Tauchen Sie an exklusiven, weniger überfüllten Plätzen."
+      }
+    }
+  },
+  "cta": {
+    "title": "Bereit für das Außergewöhnliche?",
+    "desc": "Die Plätze für unsere exklusiven Luxusexpeditionen sind begrenzt. Sichern Sie sich noch heute Ihren Platz.",
+    "btn1": "Mein Erlebnis buchen",
+    "btn2": "Concierge kontaktieren"
+  },
+  "diving": {
+    "hero": {
+      "badge": "Professioneller Instruktor in Hurghada",
+      "title1": "Elite",
+      "title2": "Taucherlebnisse",
+      "desc": "Begleiten Sie Hurghadas besten professionellen Tauchlehrer für persönliche Tauchstunden."
+    },
+    "filter": "Nach Level filtern",
+    "book": "Jetzt buchen",
+    "seo": {
+      "heading1": "Warum in Hurghada mit Azure Abyss tauchen?",
+      "p1": "Hurghada liegt am westlichen Ufer des Roten Meeres und bietet einige der artenreichsten Unterwasser-Ökosysteme der Welt. Mit über 1.100 Fischarten und makellosen Korallengärten ist es weltweit als erstklassiges Tauchdestinationsziel anerkannt.",
+      "heading2": "Unsere Top Tauchplätze in Hurghada",
+      "heading3": "Häufig gestellte Fragen",
+      "faq": [
+        {
+          "q": "Ist Hurghada gut zum Tauchen?",
+          "a": "Ja – Hurghada ist eines der besten Tauchziele Ägyptens, mit einer ganzjährigen Sichtweite von 20–30 Metern und reicher Meeresbiodiversität."
+        },
+        {
+          "q": "Was kostet Tauchen in Hurghada?",
+          "a": "Private Tauchlektionen bei Azure Abyss beginnen ab 120$ für eine Discovery-Session. Unsere Pakete reichen bis zu 950$ für ein ganztägiges Elite Master Programm."
+        },
+        {
+          "q": "Brauche ich Erfahrung zum Tauchen in Hurghada?",
+          "a": "Nein. Unser Discovery-Paket ist speziell für Erstlinge konzipiert und völlig sicher unter privater Instruktoraufsicht."
+        },
+        {
+          "q": "Was ist die beste Zeit zum Tauchen in Hurghada?",
+          "a": "Hurghada bietet das ganze Jahr über hervorragendes Tauchen. Die Wassertemperatur reicht von 22°C im Winter bis 28°C im Sommer."
+        }
+      ]
+    }
+  },
+  "packages": {
+    "hero": {
+      "badge": "Exklusive Stufen",
+      "title1": "Maßgeschneiderte",
+      "title2": "Exzellenz",
+      "desc": "Wählen Sie das Niveau an Immersion und Luxus, das zu Ihrer Reise passt."
+    },
+    "perPerson": "pro Person",
+    "bookPackage": "Paket buchen",
+    "included": "Inklusive",
+    "notIncluded": "Nicht inklusive"
+  },
+  "gallery": {
+    "hero": {
+      "badge": "Visuelle Reise",
+      "title1": "Eingefangene",
+      "title2": "Momente",
+      "desc": "Eine kuratierte Sammlung des Lebens unter der Oberfläche in Hurghada."
+    },
+    "viewFullscreen": "Vollbild anzeigen"
+  },
+  "contact": {
+    "hero": {
+      "badge": "Kontakt aufnehmen",
+      "title1": "Verbinden Sie sich mit Ihrem",
+      "title2": "Instruktor"
+    },
+    "form": {
+      "name": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefonnummer",
+      "date": "Bevorzugtes Datum",
+      "package": "Bevorzugtes Paket",
+      "message": "Nachricht",
+      "send": "Anfrage senden",
+      "success": "Nachricht gesendet! Wir antworten innerhalb von 24 Stunden.",
+      "namePlaceholder": "Ihr vollständiger Name",
+      "emailPlaceholder": "ihre@email.com",
+      "phonePlaceholder": "+20 123 456 789"
+    }
+  },
+  "blog": {
+    "hero": {
+      "badge": "Tauchen Wissenszentrum",
+      "title1": "Experten",
+      "title2": "Artikel",
+      "desc": "Tipps, Guides und Insiderwissen vom besten Tauchinstruktor Hurghadas."
+    },
+    "readMore": "Vollständigen Artikel lesen",
+    "minuteRead": "Min. Lesezeit",
+    "latestPosts": "Neueste Artikel",
+    "categories": {
+      "guides": "Tauchguides",
+      "tips": "Tipps & Sicherheit",
+      "sites": "Tauchplätze",
+      "courses": "Kurse"
+    }
+  },
+  "footer": {
+    "desc": "Professionelle Tauchausbildung im Herzen von Hurghada. Begleiten Sie Capt. Omar auf einer Elite-Unterwasserreise.",
+    "links": "Schnelllinks",
+    "newsletter": "Newsletter",
+    "subscribe": "Abonnieren",
+    "copyright": "© 2026 Azure Abyss Hurghada. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen"
+  },
+  "common": {
+    "learnMore": "Mehr erfahren",
+    "bookNow": "Jetzt buchen",
+    "viewAll": "Alle anzeigen",
+    "loading": "Laden...",
+    "back": "Zurück"
+  },
+  "schema": {
+    "businessName": "Azure Abyss Hurghada",
+    "description": "Elite private Tauchausbildung in Hurghada, Ägypten. PADI zertifizierte Kurse für alle Levels.",
+    "address": "Sheraton Road, Hurghada, Rotes Meer Gouvernorat, Ägypten"
+  }
+}

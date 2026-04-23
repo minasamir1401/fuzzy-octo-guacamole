@@ -1,0 +1,340 @@
+{
+  "metadata": {
+    "siteName": "Azure Abyss Hurghada",
+    "home": {
+      "title": "Hurghada Diving | Elite Scuba Instruction | Azure Abyss",
+      "description": "Discover the best scuba diving in Hurghada with certified PADI instructor Capt. Omar. Private lessons, Red Sea dive sites, unforgettable underwater experiences.",
+      "keywords": "Hurghada diving, scuba diving Hurghada, diving in Red Sea Egypt, PADI Hurghada, dive instructor Hurghada"
+    },
+    "diving": {
+      "title": "Scuba Diving Hurghada | Red Sea Dive Sites | Azure Abyss",
+      "description": "Explore Hurghada's top dive sites with a private PADI master instructor. Abu Nuhas, Ras Mohammed, Thistlegorm wreck – expert guidance guaranteed.",
+      "keywords": "scuba diving Hurghada, dive sites Red Sea, Abu Nuhas diving, Thistlegorm wreck, private dive instructor"
+    },
+    "packages": {
+      "title": "Diving Packages Hurghada | Private Courses from $120 | Azure Abyss",
+      "description": "Choose from Discovery, Advanced Pro, or Elite Master diving packages in Hurghada. Private instruction, PADI certified, all skill levels welcome.",
+      "keywords": "diving packages Hurghada, PADI course Hurghada, scuba diving price Egypt, private dive course Red Sea"
+    },
+    "gallery": {
+      "title": "Hurghada Diving Photos | Red Sea Underwater Gallery | Azure Abyss",
+      "description": "Browse stunning underwater photography from Hurghada's best dive sites. Coral reefs, marine life, and breathtaking Red Sea moments captured by Azure Abyss.",
+      "keywords": "Hurghada diving photos, Red Sea underwater photography, coral reef Hurghada, marine life Egypt"
+    },
+    "contact": {
+      "title": "Contact Azure Abyss | Book Diving Hurghada",
+      "description": "Ready to dive in Hurghada? Contact Azure Abyss to book your private diving lesson with PADI instructor Capt. Omar. Quick response guaranteed.",
+      "keywords": "book diving Hurghada, contact dive school Hurghada, diving booking Red Sea"
+    },
+    "blog": {
+      "title": "Hurghada Diving Blog | Red Sea Tips & Guides | Azure Abyss",
+      "description": "Expert articles on Hurghada diving: best dive sites, prices, beginner guides, and Red Sea tips from PADI instructor Capt. Omar.",
+      "keywords": "Hurghada diving blog, Red Sea diving tips, scuba guide Egypt, Hurghada dive sites"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "diving": "Diving",
+    "packages": "Packages",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "blog": "Blog",
+    "bookNow": "Book Now"
+  },
+  "hero": {
+    "badge": "Elite Private Instruction in Hurghada",
+    "title1": "Master the Deep with",
+    "title2": "Professional Guidance",
+    "desc": "Unlock the secrets of the Red Sea with personalized, professional diving expeditions in Hurghada. Your safety and skill development are our top priorities.",
+    "cta1": "Book Your Instructor",
+    "cta2": "View Dive Sites"
+  },
+  "featured": {
+    "title": "Exclusive Pricing Plans",
+    "desc": "Professional diving services at competitive rates. Choose the tier that matches your experience level and goals.",
+    "viewAll": "View All Prices",
+    "selectCourse": "Book Session",
+    "package": "Service",
+    "details": "Experience",
+    "price": "Price",
+    "action": "Booking",
+    "perPerson": "per person"
+  },
+  "why": {
+    "badge": "Why Choose Our Instruction",
+    "title1": "Personalized",
+    "title2": "Mastery",
+    "desc": "We specialize in high-end, private diving instruction in Hurghada. Our approach combines rigorous safety standards with a personalized coaching style that helps you become a confident diver while exploring the most beautiful spots in the Red Sea.",
+    "features": {
+      "instructor": {
+        "title": "Pro Instructor",
+        "desc": "Learn directly from a certified master with over 15 years of experience."
+      },
+      "safety": {
+        "title": "Safety First",
+        "desc": "PADI certified courses with the latest safety equipment and protocols."
+      },
+      "pace": {
+        "title": "Custom Pace",
+        "desc": "We adapt to your learning speed, ensuring total comfort underwater."
+      },
+      "sites": {
+        "title": "Hurghada's Best",
+        "desc": "Dive at exclusive, less-crowded sites known only to local pros."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to Dive into the Extraordinary?",
+    "desc": "Spaces are limited for our exclusive luxury expeditions. Secure your spot today for an unforgettable journey.",
+    "btn1": "Book My Experience",
+    "btn2": "Contact Concierge"
+  },
+  "diving": {
+    "hero": {
+      "badge": "Professional Instructor in Hurghada",
+      "title1": "Elite Diving",
+      "title2": "Experiences",
+      "desc": "Join Hurghada's top professional instructor for personalized diving sessions. Whether you're a first-timer or an advanced explorer."
+    },
+    "filter": "Filter By Level",
+    "book": "Book Now",
+    "seo": {
+      "heading1": "Why Dive in Hurghada with Azure Abyss?",
+      "p1": "Hurghada sits on the western shore of the Red Sea, offering some of the world's most biodiverse underwater ecosystems. With over 1,100 species of fish and pristine coral gardens, it is globally recognized as a premier scuba diving destination.",
+      "heading2": "Our Top Hurghada Dive Sites",
+      "heading3": "Frequently Asked Questions",
+      "faq": [
+        {
+          "q": "Is Hurghada good for diving?",
+          "a": "Yes – Hurghada is one of Egypt's best diving destinations, with year-round visibility of 20–30 metres, warm water temperatures, and rich marine biodiversity."
+        },
+        {
+          "q": "How much does diving in Hurghada cost?",
+          "a": "Private diving lessons with Azure Abyss start from $120 for a Discovery session. Our packages range up to $950 for a full-day Elite Master program."
+        },
+        {
+          "q": "Do I need experience to dive in Hurghada?",
+          "a": "No experience is needed. Our Discovery package is designed specifically for first-timers and is completely safe under private instructor supervision."
+        },
+        {
+          "q": "What is the best time to dive in Hurghada?",
+          "a": "Hurghada offers excellent diving year-round. Water temperature ranges from 22°C in winter to 28°C in summer, with visibility consistently above 20 metres."
+        }
+      ]
+    }
+  },
+  "packages": {
+    "hero": {
+      "badge": "Exclusive Tiers",
+      "title1": "Tailored",
+      "title2": "Excellence",
+      "desc": "Choose the level of immersion and luxury that suits your journey."
+    },
+    "perPerson": "per person",
+    "bookPackage": "Book This Package",
+    "included": "What's Included",
+    "notIncluded": "Not Included"
+  },
+  "gallery": {
+    "hero": {
+      "badge": "Visual Journey",
+      "title1": "Captured",
+      "title2": "Moments",
+      "desc": "A curated collection of life beneath the surface in Hurghada."
+    },
+    "viewFullscreen": "View Fullscreen"
+  },
+  "contact": {
+    "hero": {
+      "badge": "Get In Touch",
+      "title1": "Connect With Your",
+      "title2": "Instructor"
+    },
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "date": "Preferred Date",
+      "package": "Preferred Package",
+      "message": "Message",
+      "send": "Send Inquiry",
+      "success": "Message sent! We'll respond within 24 hours.",
+      "namePlaceholder": "Your full name",
+      "emailPlaceholder": "your@email.com",
+      "phonePlaceholder": "+20 123 456 789"
+    }
+  },
+  "blog": {
+    "hero": {
+      "badge": "Diving Knowledge Hub",
+      "title1": "Expert",
+      "title2": "Articles",
+      "desc": "Tips, guides, and insider knowledge from Hurghada's top diving instructor."
+    },
+    "readMore": "Read Full Article",
+    "minuteRead": "min read",
+    "latestPosts": "Latest Articles",
+    "categories": {
+      "guides": "Dive Guides",
+      "tips": "Tips & Safety",
+      "sites": "Dive Sites",
+      "courses": "Courses"
+    }
+  },
+  "footer": {
+    "desc": "Professional diving instruction in the heart of Hurghada. Join Capt. Omar for an elite underwater journey.",
+    "links": "Quick Links",
+    "newsletter": "Newsletter",
+    "subscribe": "Subscribe",
+    "copyright": "© 2026 Azure Abyss Hurghada. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "bookNow": "Book Now",
+    "viewAll": "View All",
+    "loading": "Loading...",
+    "back": "Back"
+  },
+  "schema": {
+    "businessName": "Azure Abyss Hurghada",
+    "description": "Elite private scuba diving instruction in Hurghada, Egypt. PADI certified courses for all levels.",
+    "address": "Sheraton Road, Hurghada, Red Sea Governorate, Egypt"
+  },
+  "admin": {
+    "login": {
+      "title": "Azure Abyss",
+      "subtitle": "Control Center",
+      "username": "Username",
+      "password": "Password",
+      "enter": "Enter Command Center",
+      "authenticating": "Authenticating...",
+      "error": "Invalid credentials. Access Denied.",
+      "genericError": "Something went wrong. Please try again.",
+      "footer": "Secured by Azure Abyss Cyber Systems"
+    },
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "bookings": "Manage Bookings",
+      "packages": "Diving Packages",
+      "gallery": "Image Gallery",
+      "inquiries": "Client Inquiries",
+      "viewWebsite": "View Website",
+      "logout": "Logout",
+      "settings": "Settings",
+      "pricing": "Pricing"
+    },
+    "dashboard": {
+      "welcome": "Welcome Back, Captain",
+      "subtitle": "Here is what is happening with Azure Abyss today.",
+      "systemOnline": "System Online",
+      "stats": {
+        "bookings": "Total Bookings",
+        "packages": "Active Packages",
+        "inquiries": "Recent Inquiries",
+        "growth": "Growth +12%"
+      },
+      "recentBookings": {
+        "title": "Recent Bookings",
+        "viewAll": "View All",
+        "table": {
+          "customer": "Customer",
+          "package": "Package",
+          "date": "Date",
+          "status": "Status",
+          "price": "Price",
+          "pending": "Pending",
+          "confirmed": "Confirmed"
+        }
+      }
+    },
+    "bookings": {
+      "title": "Manage Bookings",
+      "subtitle": "Monitor and update all client reservations.",
+      "guests": "{count} Person(s)",
+      "table": {
+        "customer": "Customer",
+        "package": "Package",
+        "guests": "Guests",
+        "totalPrice": "Total Price",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "actions": {
+        "confirm": "Confirm Booking",
+        "cancel": "Cancel Booking"
+      }
+    },
+    "packages": {
+      "title": "Diving Packages",
+      "subtitle": "Manage and update offered diving experiences."
+    },
+    "gallery": {
+      "title": "Image Gallery",
+      "subtitle": "Manage images displayed in the website gallery.",
+      "addImage": "Add New Image"
+    },
+    "inquiries": {
+      "title": "Client Inquiries",
+      "subtitle": "Respond to potential client questions."
+    }
+  },
+  "bookingPage": {
+    "selectPackage": {
+      "title": "Select Your Package",
+      "subtitle": "Choose the experience that fits your adventure style.",
+      "type": "Type"
+    },
+    "planVisit": {
+      "title": "Plan Your Visit",
+      "subtitle": "Tell us when you want to dive and how many guests.",
+      "date": "Preferred Date",
+      "guests": "Number of Guests",
+      "addonsTitle": "Add Premium Enhancements"
+    },
+    "contactInfo": {
+      "title": "Contact Information",
+      "name": "Full Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "john@example.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+20 123 456 7890"
+    },
+    "payment": {
+      "title": "Payment Method",
+      "securePayment": "Secure Payment",
+      "payLater": "Pay at the center or via link later",
+      "note": "* For luxury expeditions, a 20% deposit may be requested after confirmation."
+    },
+    "summary": {
+      "title": "Booking Summary",
+      "package": "Package",
+      "date": "Date",
+      "guests": "Guests",
+      "addons": "Add-ons",
+      "total": "Total",
+      "confirmBtn": "Confirm Booking",
+      "processing": "Processing..."
+    },
+    "success": {
+      "title": "Experience Confirmed!",
+      "p1": "Thank you",
+      "p2": "Your luxury diving expedition is being prepared. We have sent a confirmation email to",
+      "homeBtn": "Return Home",
+      "exploreBtn": "Explore More"
+    },
+    "addons": {
+      "photo": "Underwater Photography",
+      "private": "Private Instructor",
+      "gear": "Premium Gear Rental"
+    },
+    "buttons": {
+      "next": "Next Step",
+      "back": "Back",
+      "continueCheckout": "Continue to Checkout"
+    }
+  }
+}
